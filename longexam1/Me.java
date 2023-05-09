@@ -22,7 +22,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito na ako sa Tagayatay yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Tagayatay yeheyyy!!!  ");
         budget = budget - tagaytay.airFare;
 }
         checkBudget();
@@ -33,7 +33,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito na ako sa Lucban yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Lucban yeheyyy!!!  ");
         budget = budget - lucban.airFare;
 }
         checkBudget(); 
@@ -44,7 +44,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito na ako sa Palawan yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Palawan yeheyyy!!!  ");
         budget = budget - palawan.airFare;
 }
         checkBudget();
@@ -56,7 +56,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito na ako sa Cebu yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Cebu yeheyyy!!!  ");
         budget = budget - cebu.airFare;
 }
         checkBudget();
@@ -67,7 +67,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito na ako sa Puerto Galera  yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Puerto Galera  yeheyyy!!!  ");
         budget = budget - puertoGalera.airFare;
 }
         checkBudget();
