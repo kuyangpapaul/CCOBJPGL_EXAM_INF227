@@ -22,7 +22,7 @@ else{
         System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
 }
 else{
-        System.out.println("Andito naman ako sa Tagayatay yeheyyy!!!  ");
+        System.out.println("Andito naman ako sa Tagaytay yeheyyy!!!  ");
         budget = budget - tagaytay.airFare;
 }
         checkBudget();
