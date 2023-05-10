@@ -8,9 +8,9 @@ public class Me implements Tourist {
 
     public void visit(Boracay boracay) {
  if (boracay.airFare > budget ){
-        System.out.println("Kulang na pera mo kuys, stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Boracay stay ka na lang sa bahay :( ");
 }
-else{
+ else{
         System.out.println("Andito na ako sa Boracay yeheyyy!!! ");
         budget = budget - boracay.airFare;   
 }
@@ -19,9 +19,9 @@ else{
 
     public void visit(Tagaytay tagaytay) {
  if (tagaytay.airFare > budget){
-        System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Tagaytay stay ka na lang sa bahay :( ");
 }
-else{
+ else{
         System.out.println("Andito naman ako sa Tagaytay yeheyyy!!!  ");
         budget = budget - tagaytay.airFare;
 }
@@ -30,9 +30,9 @@ else{
 
     public void visit(Lucban lucban) {
   if (lucban.airFare > budget){
-        System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Lucban stay ka na lang sa bahay :(");
 }
-else{
+ else{
         System.out.println("Andito naman ako sa Lucban yeheyyy!!!  ");
         budget = budget - lucban.airFare;
 }
@@ -41,9 +41,9 @@ else{
 
     public void visit(Palawan palawan) {
   if (palawan.airFare > budget){
-        System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Palawan stay ka na lang sa bahay :( ");
 }
-else{
+ else{
         System.out.println("Andito naman ako sa Palawan yeheyyy!!!  ");
         budget = budget - palawan.airFare;
 }
@@ -53,9 +53,9 @@ else{
 
     public void visit(Cebu cebu) {
    if (cebu.airFare > budget){
-        System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Cebu stay ka na lang sa bahay :( ");
 }
-else{
+ else{
         System.out.println("Andito naman ako sa Cebu yeheyyy!!!  ");
         budget = budget - cebu.airFare;
 }
@@ -64,9 +64,9 @@ else{
     }
     public void visit(PuertoGalera puertoGalera) {
    if (puertoGalera.airFare > budget){
-        System.out.println("Kulang na pera mo kuys stay ka na lang sa bahay :( ");
+        System.out.println("Sorry kulang na ang pera mo kuys hindi ka na makakapag Puerto Galera stay ka na lang sa bahay :( ");
 }
-else{
+ else{
         System.out.println("Andito naman ako sa Puerto Galera  yeheyyy!!!  ");
         budget = budget - puertoGalera.airFare;
 }
